@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>Tasks</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>To-do</h1>
+
+            <div class="dropdown-month">
+                <button class="months">April</button>
+                <div class="drop-months">
+                    <a href="#">January</a>
+                    <a href="#">February</a>
+                    <a href="#">March</a>
+                    <a href="#">April</a>
+                    <a href="#">May</a>
+                    <a href="#">June</a>
+                    <a href="#">July</a>
+                    <a href="#">August</a>
+                    <a href="#">September</a>
+                    <a href="#">October</a>
+                    <a href="#">November</a>
+                    <a href="#">December</a>
+                </div>
+            </div>
+            <div class="days">
+
+                <!-- -> js -->
+                <div class="dnum">
+                    <h2 id="day">01</h2>
+                    <h2 id="day">02</h2>
+                    <h2 id="day">03</h2>
+                    <h2 id="day">04</h2>
+                    <h2 id="day">05</h2>
+                    <h2 id="day">06</h2>
+                    <h2 id="day">07</h2>
+
+                </div>
+                <div class="dwr">
+                    <h2 id="dayw">SUN</h2>
+                    <h2 id="dayw">MON</h2>
+                    <h2 id="dayw">TUE</h2>
+                    <h2 id="dayw">WED</h2>
+                    <h2 id="dayw">THU</h2>
+                    <h2 id="dayw">FRI</h2>
+                    <h2 id="dayw">SAT</h2>
+                </div>
+            </div>
+            <div class="data">
+                <h5> 0/0 Done </h5>
+            </div>
+        </div>
+
+        <div class="todo">
+            <form>
+                <input type="text" id="task" placeholder="Add new task">
+                <button type="button" onclick=""> + </button>
+            </form>
+        </div>
+        <div class="list">
+
+            <!-- -> js -->
+            <div class="items">
+                <input type="checkbox" id="check" name="checktask" />
+                <h3 class="btn-text">New task</h3>
+                <button class="btn-delete" onclick=""><img
+                        src="https://res.cloudinary.com/codier/image/upload/v1696533067/ngwt52z9tq7ba8tl5lm3.png"></button>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
